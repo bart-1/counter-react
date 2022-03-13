@@ -1,0 +1,49 @@
+div.timer {
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-content: center;
+  margin: 40vh auto;
+}
+
+div.timer-digits {
+  width: fit-content;
+  margin: auto;
+  flex: auto;
+  align-content: center;
+  font-size: 10vw;
+  color: var(--my-foreground);
+}
+input {
+  padding: 0;
+  border: 0;
+  width: 15vw;
+  text-align: center;
+  font-size: 12vw;
+  font-family: "Roboto";
+  color: var(--my-foreground);
+  background-color: var(--my-background);
+}
+
+div.timer-buttons {
+  width: 100%;
+  padding: 10px 0;
+  flex-direction: row;
+  text-align: center;
+}
+
+button {
+  width: 8vw;
+  font-size: 1vw;
+  background-color: var(--my-background);
+  padding: 0.5vw;
+  border: solid 1px var(--my-foreground);
+  border-radius: 0.5vw;
+  color: var(--my-foreground);
+  margin: 0 1vw;
+}
+button:hover {
+  background-color: var(--my-foreground);
+  border: solid 1px var(--my-background);
+  color: var(--my-background);
+}
